@@ -34,17 +34,17 @@ void LCD_Line2()
   usleep(2000);
 }
 //-------------------------------------------------------------------------
-void LCD_Test()
+void LCD_print(char* Text1, char* Text2)
 {
-  char Text1[16] = "Altera DE2 Board";
-  char Text2[16] = " USB Paintbrush ";
   //  Initial LCD
   LCD_Init();
   //  Show Text to LCD
+  LCD_Show_Text("Coord. X: ");
   LCD_Show_Text(Text1);
   //  Change Line2
   LCD_Line2();
   //  Show Text to LCD
+  LCD_Show_Text("Coord. Y: ");
   LCD_Show_Text(Text2);
 }
 //-------------------------------------------------------------------------

@@ -843,3 +843,1079 @@ Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.
 
 !ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 17:28:48.593
 !MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9200080 --id=0x0 --timestamp=1354258592 /cygdrive/d/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+!SESSION 2019-12-10 14:49:16.899 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization /opt/intelFPGA/18.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization /opt/intelFPGA/18.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.ui 1 1 2019-12-10 14:49:41.615
+!MESSAGE Workbench migration started
+
+!ENTRY org.eclipse.ui 1 1 2019-12-10 14:49:42.816
+!MESSAGE Workbench migration finished
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 16 2019-12-10 14:49:58.431
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1. ; version: 1.100.0.v20160217-0435
+!STACK 0
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:176)
+	at com.google.gson.Gson.fromJson(Gson.java:803)
+	at com.google.gson.Gson.fromJson(Gson.java:768)
+	at com.google.gson.Gson.fromJson(Gson.java:717)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.json.Json.deserialize(Json.java:88)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:70)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:101)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:374)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:165)
+	... 9 more
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-12-10 14:50:04.054
+!MESSAGE Indexed 'DE2_115_NIOS_HOST_MOUSE_VGA_bsp' (166 sources, 272 headers) in 3.41 sec: 6,459 declarations; 12,312 references; 0 unresolved inclusions; 5 syntax errors; 64 unresolved names (0.34%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-12-10 14:50:04.421
+!MESSAGE Indexed 'DE2_115_NIOS_HOST_MOUSE_VGA' (7 sources, 57 headers) in 0.359 sec: 2,177 declarations; 5,697 references; 34 unresolved inclusions; 0 syntax errors; 767 unresolved names (8.9%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-12-10 14:58:25.465
+!MESSAGE Indexed 'DE2_115_NIOS_HOST_MOUSE_VGA' (4 sources, 45 headers) in 0.19 sec: 2,092 declarations; 5,534 references; 19 unresolved inclusions; 0 syntax errors; 732 unresolved names (8.8%)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-12-10 14:58:40.266
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9200080 --id=0x0 --timestamp=1354258592]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2019-12-10 14:58:41.567
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --stop, --sidp=0x9200080, --id=0x0, --timestamp=1354258592] return code: 8
+
+!ENTRY com.altera.sbtgui.launch 4 0 2019-12-10 14:58:41.643
+!MESSAGE ELF file not specified for download for DE2_115_NIOS_HOST_MOUSE_VGA Nios II Hardware configuration
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-12-10 14:59:26.850
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-7]' --device=1 --instance=0 --stop --sidp=0x9200080 --id=0x0 --timestamp=1354258592]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-12-10 14:59:28.255
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-7]' --device=1 --instance=0 --go --sidp=0x9200080 --id=0x0 --timestamp=1354258592 /home/aluno/projeto-final-dlpII/DE2_115_NIOS_HOST_MOUSE_VGA/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-12-10 15:05:11.665
+!MESSAGE Indexed 'DE2_115_NIOS_HOST_MOUSE_VGA' (4 sources, 45 headers) in 0.203 sec: 2,093 declarations; 5,541 references; 19 unresolved inclusions; 0 syntax errors; 732 unresolved names (8.7%)
+
+!ENTRY org.eclipse.cdt.core 4 0 2019-12-10 15:06:51.849
+!MESSAGE Error
+!STACK 0
+java.lang.UnsupportedOperationException
+	at java.util.concurrent.CopyOnWriteArrayList$COWIterator.remove(Unknown Source)
+	at org.eclipse.cdt.managedbuilder.internal.scannerconfig.DefaultGnuWinScannerInfoCollector.contributeToScannerConfig(DefaultGnuWinScannerInfoCollector.java:49)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.GCCScannerInfoConsoleParser.processCommand(GCCScannerInfoConsoleParser.java:202)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.AbstractGCCBOPConsoleParser.processSingleLine(AbstractGCCBOPConsoleParser.java:305)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.AbstractGCCBOPConsoleParser.processLine(AbstractGCCBOPConsoleParser.java:145)
+	at org.eclipse.cdt.managedbuilder.internal.scannerconfig.ManagedGCCScannerInfoConsoleParser.processLine(ManagedGCCScannerInfoConsoleParser.java:31)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2019-12-10 15:06:51.859
+!MESSAGE Error
+!STACK 0
+java.lang.UnsupportedOperationException
+	at java.util.concurrent.CopyOnWriteArrayList$COWIterator.remove(Unknown Source)
+	at org.eclipse.cdt.managedbuilder.internal.scannerconfig.DefaultGnuWinScannerInfoCollector.contributeToScannerConfig(DefaultGnuWinScannerInfoCollector.java:49)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.GCCScannerInfoConsoleParser.processCommand(GCCScannerInfoConsoleParser.java:202)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.AbstractGCCBOPConsoleParser.processSingleLine(AbstractGCCBOPConsoleParser.java:305)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.AbstractGCCBOPConsoleParser.processLine(AbstractGCCBOPConsoleParser.java:145)
+	at org.eclipse.cdt.managedbuilder.internal.scannerconfig.ManagedGCCScannerInfoConsoleParser.processLine(ManagedGCCScannerInfoConsoleParser.java:31)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2019-12-10 15:06:51.915
+!MESSAGE Error
+!STACK 0
+java.lang.UnsupportedOperationException
+	at java.util.concurrent.CopyOnWriteArrayList$COWIterator.remove(Unknown Source)
+	at org.eclipse.cdt.managedbuilder.internal.scannerconfig.DefaultGnuWinScannerInfoCollector.contributeToScannerConfig(DefaultGnuWinScannerInfoCollector.java:49)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.GCCScannerInfoConsoleParser.processCommand(GCCScannerInfoConsoleParser.java:202)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.AbstractGCCBOPConsoleParser.processSingleLine(AbstractGCCBOPConsoleParser.java:305)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.AbstractGCCBOPConsoleParser.processLine(AbstractGCCBOPConsoleParser.java:145)
+	at org.eclipse.cdt.managedbuilder.internal.scannerconfig.ManagedGCCScannerInfoConsoleParser.processLine(ManagedGCCScannerInfoConsoleParser.java:31)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2019-12-10 15:06:51.916
+!MESSAGE Error
+!STACK 0
+java.lang.UnsupportedOperationException
+	at java.util.concurrent.CopyOnWriteArrayList$COWIterator.remove(Unknown Source)
+	at org.eclipse.cdt.managedbuilder.internal.scannerconfig.DefaultGnuWinScannerInfoCollector.contributeToScannerConfig(DefaultGnuWinScannerInfoCollector.java:49)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.GCCScannerInfoConsoleParser.processCommand(GCCScannerInfoConsoleParser.java:202)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.AbstractGCCBOPConsoleParser.processSingleLine(AbstractGCCBOPConsoleParser.java:305)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.AbstractGCCBOPConsoleParser.processLine(AbstractGCCBOPConsoleParser.java:145)
+	at org.eclipse.cdt.managedbuilder.internal.scannerconfig.ManagedGCCScannerInfoConsoleParser.processLine(ManagedGCCScannerInfoConsoleParser.java:31)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2019-12-10 15:06:51.933
+!MESSAGE Error
+!STACK 0
+java.lang.UnsupportedOperationException
+	at java.util.concurrent.CopyOnWriteArrayList$COWIterator.remove(Unknown Source)
+	at org.eclipse.cdt.managedbuilder.internal.scannerconfig.DefaultGnuWinScannerInfoCollector.contributeToScannerConfig(DefaultGnuWinScannerInfoCollector.java:49)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.GCCScannerInfoConsoleParser.processCommand(GCCScannerInfoConsoleParser.java:202)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.AbstractGCCBOPConsoleParser.processSingleLine(AbstractGCCBOPConsoleParser.java:305)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.AbstractGCCBOPConsoleParser.processLine(AbstractGCCBOPConsoleParser.java:145)
+	at org.eclipse.cdt.managedbuilder.internal.scannerconfig.ManagedGCCScannerInfoConsoleParser.processLine(ManagedGCCScannerInfoConsoleParser.java:31)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2019-12-10 15:06:51.933
+!MESSAGE Error
+!STACK 0
+java.lang.UnsupportedOperationException
+	at java.util.concurrent.CopyOnWriteArrayList$COWIterator.remove(Unknown Source)
+	at org.eclipse.cdt.managedbuilder.internal.scannerconfig.DefaultGnuWinScannerInfoCollector.contributeToScannerConfig(DefaultGnuWinScannerInfoCollector.java:49)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.GCCScannerInfoConsoleParser.processCommand(GCCScannerInfoConsoleParser.java:202)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.AbstractGCCBOPConsoleParser.processSingleLine(AbstractGCCBOPConsoleParser.java:305)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.AbstractGCCBOPConsoleParser.processLine(AbstractGCCBOPConsoleParser.java:145)
+	at org.eclipse.cdt.managedbuilder.internal.scannerconfig.ManagedGCCScannerInfoConsoleParser.processLine(ManagedGCCScannerInfoConsoleParser.java:31)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2019-12-10 15:06:51.958
+!MESSAGE Error
+!STACK 0
+java.lang.UnsupportedOperationException
+	at java.util.concurrent.CopyOnWriteArrayList$COWIterator.remove(Unknown Source)
+	at org.eclipse.cdt.managedbuilder.internal.scannerconfig.DefaultGnuWinScannerInfoCollector.contributeToScannerConfig(DefaultGnuWinScannerInfoCollector.java:49)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.GCCScannerInfoConsoleParser.processCommand(GCCScannerInfoConsoleParser.java:202)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.AbstractGCCBOPConsoleParser.processSingleLine(AbstractGCCBOPConsoleParser.java:305)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.AbstractGCCBOPConsoleParser.processLine(AbstractGCCBOPConsoleParser.java:145)
+	at org.eclipse.cdt.managedbuilder.internal.scannerconfig.ManagedGCCScannerInfoConsoleParser.processLine(ManagedGCCScannerInfoConsoleParser.java:31)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2019-12-10 15:06:51.959
+!MESSAGE Error
+!STACK 0
+java.lang.UnsupportedOperationException
+	at java.util.concurrent.CopyOnWriteArrayList$COWIterator.remove(Unknown Source)
+	at org.eclipse.cdt.managedbuilder.internal.scannerconfig.DefaultGnuWinScannerInfoCollector.contributeToScannerConfig(DefaultGnuWinScannerInfoCollector.java:49)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.GCCScannerInfoConsoleParser.processCommand(GCCScannerInfoConsoleParser.java:202)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.AbstractGCCBOPConsoleParser.processSingleLine(AbstractGCCBOPConsoleParser.java:305)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.AbstractGCCBOPConsoleParser.processLine(AbstractGCCBOPConsoleParser.java:145)
+	at org.eclipse.cdt.managedbuilder.internal.scannerconfig.ManagedGCCScannerInfoConsoleParser.processLine(ManagedGCCScannerInfoConsoleParser.java:31)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2019-12-10 15:10:45.113
+!MESSAGE Error
+!STACK 0
+java.lang.UnsupportedOperationException
+	at java.util.concurrent.CopyOnWriteArrayList$COWIterator.remove(Unknown Source)
+	at org.eclipse.cdt.managedbuilder.internal.scannerconfig.DefaultGnuWinScannerInfoCollector.contributeToScannerConfig(DefaultGnuWinScannerInfoCollector.java:49)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.GCCScannerInfoConsoleParser.processCommand(GCCScannerInfoConsoleParser.java:202)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.AbstractGCCBOPConsoleParser.processSingleLine(AbstractGCCBOPConsoleParser.java:305)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.AbstractGCCBOPConsoleParser.processLine(AbstractGCCBOPConsoleParser.java:145)
+	at org.eclipse.cdt.managedbuilder.internal.scannerconfig.ManagedGCCScannerInfoConsoleParser.processLine(ManagedGCCScannerInfoConsoleParser.java:31)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2019-12-10 15:10:45.114
+!MESSAGE Error
+!STACK 0
+java.lang.UnsupportedOperationException
+	at java.util.concurrent.CopyOnWriteArrayList$COWIterator.remove(Unknown Source)
+	at org.eclipse.cdt.managedbuilder.internal.scannerconfig.DefaultGnuWinScannerInfoCollector.contributeToScannerConfig(DefaultGnuWinScannerInfoCollector.java:49)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.GCCScannerInfoConsoleParser.processCommand(GCCScannerInfoConsoleParser.java:202)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.AbstractGCCBOPConsoleParser.processSingleLine(AbstractGCCBOPConsoleParser.java:305)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.AbstractGCCBOPConsoleParser.processLine(AbstractGCCBOPConsoleParser.java:145)
+	at org.eclipse.cdt.managedbuilder.internal.scannerconfig.ManagedGCCScannerInfoConsoleParser.processLine(ManagedGCCScannerInfoConsoleParser.java:31)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2019-12-10 15:10:45.177
+!MESSAGE Error
+!STACK 0
+java.lang.UnsupportedOperationException
+	at java.util.concurrent.CopyOnWriteArrayList$COWIterator.remove(Unknown Source)
+	at org.eclipse.cdt.managedbuilder.internal.scannerconfig.DefaultGnuWinScannerInfoCollector.contributeToScannerConfig(DefaultGnuWinScannerInfoCollector.java:49)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.GCCScannerInfoConsoleParser.processCommand(GCCScannerInfoConsoleParser.java:202)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.AbstractGCCBOPConsoleParser.processSingleLine(AbstractGCCBOPConsoleParser.java:305)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.AbstractGCCBOPConsoleParser.processLine(AbstractGCCBOPConsoleParser.java:145)
+	at org.eclipse.cdt.managedbuilder.internal.scannerconfig.ManagedGCCScannerInfoConsoleParser.processLine(ManagedGCCScannerInfoConsoleParser.java:31)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2019-12-10 15:10:45.178
+!MESSAGE Error
+!STACK 0
+java.lang.UnsupportedOperationException
+	at java.util.concurrent.CopyOnWriteArrayList$COWIterator.remove(Unknown Source)
+	at org.eclipse.cdt.managedbuilder.internal.scannerconfig.DefaultGnuWinScannerInfoCollector.contributeToScannerConfig(DefaultGnuWinScannerInfoCollector.java:49)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.GCCScannerInfoConsoleParser.processCommand(GCCScannerInfoConsoleParser.java:202)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.AbstractGCCBOPConsoleParser.processSingleLine(AbstractGCCBOPConsoleParser.java:305)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.AbstractGCCBOPConsoleParser.processLine(AbstractGCCBOPConsoleParser.java:145)
+	at org.eclipse.cdt.managedbuilder.internal.scannerconfig.ManagedGCCScannerInfoConsoleParser.processLine(ManagedGCCScannerInfoConsoleParser.java:31)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2019-12-10 15:11:55.639
+!MESSAGE Error
+!STACK 0
+java.lang.UnsupportedOperationException
+	at java.util.concurrent.CopyOnWriteArrayList$COWIterator.remove(Unknown Source)
+	at org.eclipse.cdt.managedbuilder.internal.scannerconfig.DefaultGnuWinScannerInfoCollector.contributeToScannerConfig(DefaultGnuWinScannerInfoCollector.java:49)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.GCCScannerInfoConsoleParser.processCommand(GCCScannerInfoConsoleParser.java:202)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.AbstractGCCBOPConsoleParser.processSingleLine(AbstractGCCBOPConsoleParser.java:305)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.AbstractGCCBOPConsoleParser.processLine(AbstractGCCBOPConsoleParser.java:145)
+	at org.eclipse.cdt.managedbuilder.internal.scannerconfig.ManagedGCCScannerInfoConsoleParser.processLine(ManagedGCCScannerInfoConsoleParser.java:31)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2019-12-10 15:11:55.640
+!MESSAGE Error
+!STACK 0
+java.lang.UnsupportedOperationException
+	at java.util.concurrent.CopyOnWriteArrayList$COWIterator.remove(Unknown Source)
+	at org.eclipse.cdt.managedbuilder.internal.scannerconfig.DefaultGnuWinScannerInfoCollector.contributeToScannerConfig(DefaultGnuWinScannerInfoCollector.java:49)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.GCCScannerInfoConsoleParser.processCommand(GCCScannerInfoConsoleParser.java:202)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.AbstractGCCBOPConsoleParser.processSingleLine(AbstractGCCBOPConsoleParser.java:305)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.AbstractGCCBOPConsoleParser.processLine(AbstractGCCBOPConsoleParser.java:145)
+	at org.eclipse.cdt.managedbuilder.internal.scannerconfig.ManagedGCCScannerInfoConsoleParser.processLine(ManagedGCCScannerInfoConsoleParser.java:31)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2019-12-10 15:12:32.423
+!MESSAGE Error
+!STACK 0
+java.lang.UnsupportedOperationException
+	at java.util.concurrent.CopyOnWriteArrayList$COWIterator.remove(Unknown Source)
+	at org.eclipse.cdt.managedbuilder.internal.scannerconfig.DefaultGnuWinScannerInfoCollector.contributeToScannerConfig(DefaultGnuWinScannerInfoCollector.java:49)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.GCCScannerInfoConsoleParser.processCommand(GCCScannerInfoConsoleParser.java:202)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.AbstractGCCBOPConsoleParser.processSingleLine(AbstractGCCBOPConsoleParser.java:305)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.AbstractGCCBOPConsoleParser.processLine(AbstractGCCBOPConsoleParser.java:145)
+	at org.eclipse.cdt.managedbuilder.internal.scannerconfig.ManagedGCCScannerInfoConsoleParser.processLine(ManagedGCCScannerInfoConsoleParser.java:31)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2019-12-10 15:12:32.425
+!MESSAGE Error
+!STACK 0
+java.lang.UnsupportedOperationException
+	at java.util.concurrent.CopyOnWriteArrayList$COWIterator.remove(Unknown Source)
+	at org.eclipse.cdt.managedbuilder.internal.scannerconfig.DefaultGnuWinScannerInfoCollector.contributeToScannerConfig(DefaultGnuWinScannerInfoCollector.java:49)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.GCCScannerInfoConsoleParser.processCommand(GCCScannerInfoConsoleParser.java:202)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.AbstractGCCBOPConsoleParser.processSingleLine(AbstractGCCBOPConsoleParser.java:305)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.AbstractGCCBOPConsoleParser.processLine(AbstractGCCBOPConsoleParser.java:145)
+	at org.eclipse.cdt.managedbuilder.internal.scannerconfig.ManagedGCCScannerInfoConsoleParser.processLine(ManagedGCCScannerInfoConsoleParser.java:31)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2019-12-10 15:12:41.989
+!MESSAGE Error
+!STACK 0
+java.lang.UnsupportedOperationException
+	at java.util.concurrent.CopyOnWriteArrayList$COWIterator.remove(Unknown Source)
+	at org.eclipse.cdt.managedbuilder.internal.scannerconfig.DefaultGnuWinScannerInfoCollector.contributeToScannerConfig(DefaultGnuWinScannerInfoCollector.java:49)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.GCCScannerInfoConsoleParser.processCommand(GCCScannerInfoConsoleParser.java:202)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.AbstractGCCBOPConsoleParser.processSingleLine(AbstractGCCBOPConsoleParser.java:305)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.AbstractGCCBOPConsoleParser.processLine(AbstractGCCBOPConsoleParser.java:145)
+	at org.eclipse.cdt.managedbuilder.internal.scannerconfig.ManagedGCCScannerInfoConsoleParser.processLine(ManagedGCCScannerInfoConsoleParser.java:31)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2019-12-10 15:12:41.991
+!MESSAGE Error
+!STACK 0
+java.lang.UnsupportedOperationException
+	at java.util.concurrent.CopyOnWriteArrayList$COWIterator.remove(Unknown Source)
+	at org.eclipse.cdt.managedbuilder.internal.scannerconfig.DefaultGnuWinScannerInfoCollector.contributeToScannerConfig(DefaultGnuWinScannerInfoCollector.java:49)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.GCCScannerInfoConsoleParser.processCommand(GCCScannerInfoConsoleParser.java:202)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.AbstractGCCBOPConsoleParser.processSingleLine(AbstractGCCBOPConsoleParser.java:305)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.AbstractGCCBOPConsoleParser.processLine(AbstractGCCBOPConsoleParser.java:145)
+	at org.eclipse.cdt.managedbuilder.internal.scannerconfig.ManagedGCCScannerInfoConsoleParser.processLine(ManagedGCCScannerInfoConsoleParser.java:31)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-12-10 15:14:41.941
+!MESSAGE Indexed 'DE2_115_NIOS_HOST_MOUSE_VGA' (4 sources, 45 headers) in 0.188 sec: 2,094 declarations; 5,542 references; 19 unresolved inclusions; 0 syntax errors; 732 unresolved names (8.7%)
+
+!ENTRY org.eclipse.cdt.core 4 0 2019-12-10 15:14:44.612
+!MESSAGE Error
+!STACK 0
+java.lang.UnsupportedOperationException
+	at java.util.concurrent.CopyOnWriteArrayList$COWIterator.remove(Unknown Source)
+	at org.eclipse.cdt.managedbuilder.internal.scannerconfig.DefaultGnuWinScannerInfoCollector.contributeToScannerConfig(DefaultGnuWinScannerInfoCollector.java:49)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.GCCScannerInfoConsoleParser.processCommand(GCCScannerInfoConsoleParser.java:202)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.AbstractGCCBOPConsoleParser.processSingleLine(AbstractGCCBOPConsoleParser.java:305)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.AbstractGCCBOPConsoleParser.processLine(AbstractGCCBOPConsoleParser.java:145)
+	at org.eclipse.cdt.managedbuilder.internal.scannerconfig.ManagedGCCScannerInfoConsoleParser.processLine(ManagedGCCScannerInfoConsoleParser.java:31)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2019-12-10 15:14:44.613
+!MESSAGE Error
+!STACK 0
+java.lang.UnsupportedOperationException
+	at java.util.concurrent.CopyOnWriteArrayList$COWIterator.remove(Unknown Source)
+	at org.eclipse.cdt.managedbuilder.internal.scannerconfig.DefaultGnuWinScannerInfoCollector.contributeToScannerConfig(DefaultGnuWinScannerInfoCollector.java:49)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.GCCScannerInfoConsoleParser.processCommand(GCCScannerInfoConsoleParser.java:202)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.AbstractGCCBOPConsoleParser.processSingleLine(AbstractGCCBOPConsoleParser.java:305)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.AbstractGCCBOPConsoleParser.processLine(AbstractGCCBOPConsoleParser.java:145)
+	at org.eclipse.cdt.managedbuilder.internal.scannerconfig.ManagedGCCScannerInfoConsoleParser.processLine(ManagedGCCScannerInfoConsoleParser.java:31)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2019-12-10 15:14:44.672
+!MESSAGE Error
+!STACK 0
+java.lang.UnsupportedOperationException
+	at java.util.concurrent.CopyOnWriteArrayList$COWIterator.remove(Unknown Source)
+	at org.eclipse.cdt.managedbuilder.internal.scannerconfig.DefaultGnuWinScannerInfoCollector.contributeToScannerConfig(DefaultGnuWinScannerInfoCollector.java:49)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.GCCScannerInfoConsoleParser.processCommand(GCCScannerInfoConsoleParser.java:202)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.AbstractGCCBOPConsoleParser.processSingleLine(AbstractGCCBOPConsoleParser.java:305)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.AbstractGCCBOPConsoleParser.processLine(AbstractGCCBOPConsoleParser.java:145)
+	at org.eclipse.cdt.managedbuilder.internal.scannerconfig.ManagedGCCScannerInfoConsoleParser.processLine(ManagedGCCScannerInfoConsoleParser.java:31)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2019-12-10 15:14:44.673
+!MESSAGE Error
+!STACK 0
+java.lang.UnsupportedOperationException
+	at java.util.concurrent.CopyOnWriteArrayList$COWIterator.remove(Unknown Source)
+	at org.eclipse.cdt.managedbuilder.internal.scannerconfig.DefaultGnuWinScannerInfoCollector.contributeToScannerConfig(DefaultGnuWinScannerInfoCollector.java:49)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.GCCScannerInfoConsoleParser.processCommand(GCCScannerInfoConsoleParser.java:202)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.AbstractGCCBOPConsoleParser.processSingleLine(AbstractGCCBOPConsoleParser.java:305)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.AbstractGCCBOPConsoleParser.processLine(AbstractGCCBOPConsoleParser.java:145)
+	at org.eclipse.cdt.managedbuilder.internal.scannerconfig.ManagedGCCScannerInfoConsoleParser.processLine(ManagedGCCScannerInfoConsoleParser.java:31)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2019-12-10 15:14:44.688
+!MESSAGE Error
+!STACK 0
+java.lang.UnsupportedOperationException
+	at java.util.concurrent.CopyOnWriteArrayList$COWIterator.remove(Unknown Source)
+	at org.eclipse.cdt.managedbuilder.internal.scannerconfig.DefaultGnuWinScannerInfoCollector.contributeToScannerConfig(DefaultGnuWinScannerInfoCollector.java:49)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.GCCScannerInfoConsoleParser.processCommand(GCCScannerInfoConsoleParser.java:202)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.AbstractGCCBOPConsoleParser.processSingleLine(AbstractGCCBOPConsoleParser.java:305)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.AbstractGCCBOPConsoleParser.processLine(AbstractGCCBOPConsoleParser.java:145)
+	at org.eclipse.cdt.managedbuilder.internal.scannerconfig.ManagedGCCScannerInfoConsoleParser.processLine(ManagedGCCScannerInfoConsoleParser.java:31)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2019-12-10 15:14:44.689
+!MESSAGE Error
+!STACK 0
+java.lang.UnsupportedOperationException
+	at java.util.concurrent.CopyOnWriteArrayList$COWIterator.remove(Unknown Source)
+	at org.eclipse.cdt.managedbuilder.internal.scannerconfig.DefaultGnuWinScannerInfoCollector.contributeToScannerConfig(DefaultGnuWinScannerInfoCollector.java:49)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.GCCScannerInfoConsoleParser.processCommand(GCCScannerInfoConsoleParser.java:202)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.AbstractGCCBOPConsoleParser.processSingleLine(AbstractGCCBOPConsoleParser.java:305)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.AbstractGCCBOPConsoleParser.processLine(AbstractGCCBOPConsoleParser.java:145)
+	at org.eclipse.cdt.managedbuilder.internal.scannerconfig.ManagedGCCScannerInfoConsoleParser.processLine(ManagedGCCScannerInfoConsoleParser.java:31)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2019-12-10 15:14:44.712
+!MESSAGE Error
+!STACK 0
+java.lang.UnsupportedOperationException
+	at java.util.concurrent.CopyOnWriteArrayList$COWIterator.remove(Unknown Source)
+	at org.eclipse.cdt.managedbuilder.internal.scannerconfig.DefaultGnuWinScannerInfoCollector.contributeToScannerConfig(DefaultGnuWinScannerInfoCollector.java:49)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.GCCScannerInfoConsoleParser.processCommand(GCCScannerInfoConsoleParser.java:202)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.AbstractGCCBOPConsoleParser.processSingleLine(AbstractGCCBOPConsoleParser.java:305)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.AbstractGCCBOPConsoleParser.processLine(AbstractGCCBOPConsoleParser.java:145)
+	at org.eclipse.cdt.managedbuilder.internal.scannerconfig.ManagedGCCScannerInfoConsoleParser.processLine(ManagedGCCScannerInfoConsoleParser.java:31)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2019-12-10 15:14:44.713
+!MESSAGE Error
+!STACK 0
+java.lang.UnsupportedOperationException
+	at java.util.concurrent.CopyOnWriteArrayList$COWIterator.remove(Unknown Source)
+	at org.eclipse.cdt.managedbuilder.internal.scannerconfig.DefaultGnuWinScannerInfoCollector.contributeToScannerConfig(DefaultGnuWinScannerInfoCollector.java:49)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.GCCScannerInfoConsoleParser.processCommand(GCCScannerInfoConsoleParser.java:202)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.AbstractGCCBOPConsoleParser.processSingleLine(AbstractGCCBOPConsoleParser.java:305)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.AbstractGCCBOPConsoleParser.processLine(AbstractGCCBOPConsoleParser.java:145)
+	at org.eclipse.cdt.managedbuilder.internal.scannerconfig.ManagedGCCScannerInfoConsoleParser.processLine(ManagedGCCScannerInfoConsoleParser.java:31)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2019-12-10 15:15:05.980
+!MESSAGE Error
+!STACK 0
+java.lang.UnsupportedOperationException
+	at java.util.concurrent.CopyOnWriteArrayList$COWIterator.remove(Unknown Source)
+	at org.eclipse.cdt.managedbuilder.internal.scannerconfig.DefaultGnuWinScannerInfoCollector.contributeToScannerConfig(DefaultGnuWinScannerInfoCollector.java:49)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.GCCScannerInfoConsoleParser.processCommand(GCCScannerInfoConsoleParser.java:202)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.AbstractGCCBOPConsoleParser.processSingleLine(AbstractGCCBOPConsoleParser.java:305)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.AbstractGCCBOPConsoleParser.processLine(AbstractGCCBOPConsoleParser.java:145)
+	at org.eclipse.cdt.managedbuilder.internal.scannerconfig.ManagedGCCScannerInfoConsoleParser.processLine(ManagedGCCScannerInfoConsoleParser.java:31)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2019-12-10 15:15:05.981
+!MESSAGE Error
+!STACK 0
+java.lang.UnsupportedOperationException
+	at java.util.concurrent.CopyOnWriteArrayList$COWIterator.remove(Unknown Source)
+	at org.eclipse.cdt.managedbuilder.internal.scannerconfig.DefaultGnuWinScannerInfoCollector.contributeToScannerConfig(DefaultGnuWinScannerInfoCollector.java:49)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.GCCScannerInfoConsoleParser.processCommand(GCCScannerInfoConsoleParser.java:202)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.AbstractGCCBOPConsoleParser.processSingleLine(AbstractGCCBOPConsoleParser.java:305)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.AbstractGCCBOPConsoleParser.processLine(AbstractGCCBOPConsoleParser.java:145)
+	at org.eclipse.cdt.managedbuilder.internal.scannerconfig.ManagedGCCScannerInfoConsoleParser.processLine(ManagedGCCScannerInfoConsoleParser.java:31)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2019-12-10 15:15:53.778
+!MESSAGE Error
+!STACK 0
+java.lang.UnsupportedOperationException
+	at java.util.concurrent.CopyOnWriteArrayList$COWIterator.remove(Unknown Source)
+	at org.eclipse.cdt.managedbuilder.internal.scannerconfig.DefaultGnuWinScannerInfoCollector.contributeToScannerConfig(DefaultGnuWinScannerInfoCollector.java:49)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.GCCScannerInfoConsoleParser.processCommand(GCCScannerInfoConsoleParser.java:202)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.AbstractGCCBOPConsoleParser.processSingleLine(AbstractGCCBOPConsoleParser.java:305)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.AbstractGCCBOPConsoleParser.processLine(AbstractGCCBOPConsoleParser.java:145)
+	at org.eclipse.cdt.managedbuilder.internal.scannerconfig.ManagedGCCScannerInfoConsoleParser.processLine(ManagedGCCScannerInfoConsoleParser.java:31)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2019-12-10 15:15:53.779
+!MESSAGE Error
+!STACK 0
+java.lang.UnsupportedOperationException
+	at java.util.concurrent.CopyOnWriteArrayList$COWIterator.remove(Unknown Source)
+	at org.eclipse.cdt.managedbuilder.internal.scannerconfig.DefaultGnuWinScannerInfoCollector.contributeToScannerConfig(DefaultGnuWinScannerInfoCollector.java:49)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.GCCScannerInfoConsoleParser.processCommand(GCCScannerInfoConsoleParser.java:202)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.AbstractGCCBOPConsoleParser.processSingleLine(AbstractGCCBOPConsoleParser.java:305)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.AbstractGCCBOPConsoleParser.processLine(AbstractGCCBOPConsoleParser.java:145)
+	at org.eclipse.cdt.managedbuilder.internal.scannerconfig.ManagedGCCScannerInfoConsoleParser.processLine(ManagedGCCScannerInfoConsoleParser.java:31)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2019-12-10 15:16:59.433
+!MESSAGE Error
+!STACK 0
+java.lang.UnsupportedOperationException
+	at java.util.concurrent.CopyOnWriteArrayList$COWIterator.remove(Unknown Source)
+	at org.eclipse.cdt.managedbuilder.internal.scannerconfig.DefaultGnuWinScannerInfoCollector.contributeToScannerConfig(DefaultGnuWinScannerInfoCollector.java:49)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.GCCScannerInfoConsoleParser.processCommand(GCCScannerInfoConsoleParser.java:202)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.AbstractGCCBOPConsoleParser.processSingleLine(AbstractGCCBOPConsoleParser.java:305)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.AbstractGCCBOPConsoleParser.processLine(AbstractGCCBOPConsoleParser.java:145)
+	at org.eclipse.cdt.managedbuilder.internal.scannerconfig.ManagedGCCScannerInfoConsoleParser.processLine(ManagedGCCScannerInfoConsoleParser.java:31)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2019-12-10 15:16:59.434
+!MESSAGE Error
+!STACK 0
+java.lang.UnsupportedOperationException
+	at java.util.concurrent.CopyOnWriteArrayList$COWIterator.remove(Unknown Source)
+	at org.eclipse.cdt.managedbuilder.internal.scannerconfig.DefaultGnuWinScannerInfoCollector.contributeToScannerConfig(DefaultGnuWinScannerInfoCollector.java:49)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.GCCScannerInfoConsoleParser.processCommand(GCCScannerInfoConsoleParser.java:202)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.AbstractGCCBOPConsoleParser.processSingleLine(AbstractGCCBOPConsoleParser.java:305)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.AbstractGCCBOPConsoleParser.processLine(AbstractGCCBOPConsoleParser.java:145)
+	at org.eclipse.cdt.managedbuilder.internal.scannerconfig.ManagedGCCScannerInfoConsoleParser.processLine(ManagedGCCScannerInfoConsoleParser.java:31)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-12-10 15:17:17.613
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-7]' --device=1 --instance=0 --stop --sidp=0x9200080 --id=0x0 --timestamp=1354258592]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-12-10 15:17:19.039
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-7]' --device=1 --instance=0 --go --sidp=0x9200080 --id=0x0 --timestamp=1354258592 /home/aluno/projeto-final-dlpII/DE2_115_NIOS_HOST_MOUSE_VGA/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+
+!ENTRY org.eclipse.cdt.core 4 0 2019-12-10 15:19:13.585
+!MESSAGE Error
+!STACK 0
+java.lang.UnsupportedOperationException
+	at java.util.concurrent.CopyOnWriteArrayList$COWIterator.remove(Unknown Source)
+	at org.eclipse.cdt.managedbuilder.internal.scannerconfig.DefaultGnuWinScannerInfoCollector.contributeToScannerConfig(DefaultGnuWinScannerInfoCollector.java:49)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.GCCScannerInfoConsoleParser.processCommand(GCCScannerInfoConsoleParser.java:202)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.AbstractGCCBOPConsoleParser.processSingleLine(AbstractGCCBOPConsoleParser.java:305)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.AbstractGCCBOPConsoleParser.processLine(AbstractGCCBOPConsoleParser.java:145)
+	at org.eclipse.cdt.managedbuilder.internal.scannerconfig.ManagedGCCScannerInfoConsoleParser.processLine(ManagedGCCScannerInfoConsoleParser.java:31)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2019-12-10 15:19:13.586
+!MESSAGE Error
+!STACK 0
+java.lang.UnsupportedOperationException
+	at java.util.concurrent.CopyOnWriteArrayList$COWIterator.remove(Unknown Source)
+	at org.eclipse.cdt.managedbuilder.internal.scannerconfig.DefaultGnuWinScannerInfoCollector.contributeToScannerConfig(DefaultGnuWinScannerInfoCollector.java:49)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.GCCScannerInfoConsoleParser.processCommand(GCCScannerInfoConsoleParser.java:202)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.AbstractGCCBOPConsoleParser.processSingleLine(AbstractGCCBOPConsoleParser.java:305)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.AbstractGCCBOPConsoleParser.processLine(AbstractGCCBOPConsoleParser.java:145)
+	at org.eclipse.cdt.managedbuilder.internal.scannerconfig.ManagedGCCScannerInfoConsoleParser.processLine(ManagedGCCScannerInfoConsoleParser.java:31)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-12-10 15:19:28.209
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [3-7]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-12-10 15:19:28.474
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-7]' --device=1 --instance=0 --stop --sidp=0x9200080 --id=0x0 --timestamp=1354258592]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-12-10 15:19:29.905
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-7]' --device=1 --instance=0 --go --sidp=0x9200080 --id=0x0 --timestamp=1354258592 /home/aluno/projeto-final-dlpII/DE2_115_NIOS_HOST_MOUSE_VGA/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+
+!ENTRY org.eclipse.cdt.core 4 0 2019-12-10 15:20:04.396
+!MESSAGE Error
+!STACK 0
+java.lang.UnsupportedOperationException
+	at java.util.concurrent.CopyOnWriteArrayList$COWIterator.remove(Unknown Source)
+	at org.eclipse.cdt.managedbuilder.internal.scannerconfig.DefaultGnuWinScannerInfoCollector.contributeToScannerConfig(DefaultGnuWinScannerInfoCollector.java:49)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.GCCScannerInfoConsoleParser.processCommand(GCCScannerInfoConsoleParser.java:202)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.AbstractGCCBOPConsoleParser.processSingleLine(AbstractGCCBOPConsoleParser.java:305)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.AbstractGCCBOPConsoleParser.processLine(AbstractGCCBOPConsoleParser.java:145)
+	at org.eclipse.cdt.managedbuilder.internal.scannerconfig.ManagedGCCScannerInfoConsoleParser.processLine(ManagedGCCScannerInfoConsoleParser.java:31)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2019-12-10 15:20:04.397
+!MESSAGE Error
+!STACK 0
+java.lang.UnsupportedOperationException
+	at java.util.concurrent.CopyOnWriteArrayList$COWIterator.remove(Unknown Source)
+	at org.eclipse.cdt.managedbuilder.internal.scannerconfig.DefaultGnuWinScannerInfoCollector.contributeToScannerConfig(DefaultGnuWinScannerInfoCollector.java:49)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.GCCScannerInfoConsoleParser.processCommand(GCCScannerInfoConsoleParser.java:202)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.AbstractGCCBOPConsoleParser.processSingleLine(AbstractGCCBOPConsoleParser.java:305)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.AbstractGCCBOPConsoleParser.processLine(AbstractGCCBOPConsoleParser.java:145)
+	at org.eclipse.cdt.managedbuilder.internal.scannerconfig.ManagedGCCScannerInfoConsoleParser.processLine(ManagedGCCScannerInfoConsoleParser.java:31)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-12-10 15:20:12.774
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [3-7]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-12-10 15:20:13.046
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-7]' --device=1 --instance=0 --stop --sidp=0x9200080 --id=0x0 --timestamp=1354258592]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-12-10 15:20:14.660
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-7]' --device=1 --instance=0 --go --sidp=0x9200080 --id=0x0 --timestamp=1354258592 /home/aluno/projeto-final-dlpII/DE2_115_NIOS_HOST_MOUSE_VGA/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+
+!ENTRY org.eclipse.cdt.core 4 0 2019-12-10 15:20:33.200
+!MESSAGE Error
+!STACK 0
+java.lang.UnsupportedOperationException
+	at java.util.concurrent.CopyOnWriteArrayList$COWIterator.remove(Unknown Source)
+	at org.eclipse.cdt.managedbuilder.internal.scannerconfig.DefaultGnuWinScannerInfoCollector.contributeToScannerConfig(DefaultGnuWinScannerInfoCollector.java:49)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.GCCScannerInfoConsoleParser.processCommand(GCCScannerInfoConsoleParser.java:202)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.AbstractGCCBOPConsoleParser.processSingleLine(AbstractGCCBOPConsoleParser.java:305)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.AbstractGCCBOPConsoleParser.processLine(AbstractGCCBOPConsoleParser.java:145)
+	at org.eclipse.cdt.managedbuilder.internal.scannerconfig.ManagedGCCScannerInfoConsoleParser.processLine(ManagedGCCScannerInfoConsoleParser.java:31)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2019-12-10 15:20:33.201
+!MESSAGE Error
+!STACK 0
+java.lang.UnsupportedOperationException
+	at java.util.concurrent.CopyOnWriteArrayList$COWIterator.remove(Unknown Source)
+	at org.eclipse.cdt.managedbuilder.internal.scannerconfig.DefaultGnuWinScannerInfoCollector.contributeToScannerConfig(DefaultGnuWinScannerInfoCollector.java:49)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.GCCScannerInfoConsoleParser.processCommand(GCCScannerInfoConsoleParser.java:202)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.AbstractGCCBOPConsoleParser.processSingleLine(AbstractGCCBOPConsoleParser.java:305)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.AbstractGCCBOPConsoleParser.processLine(AbstractGCCBOPConsoleParser.java:145)
+	at org.eclipse.cdt.managedbuilder.internal.scannerconfig.ManagedGCCScannerInfoConsoleParser.processLine(ManagedGCCScannerInfoConsoleParser.java:31)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-12-10 15:20:41.017
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [3-7]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-12-10 15:20:41.296
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-7]' --device=1 --instance=0 --stop --sidp=0x9200080 --id=0x0 --timestamp=1354258592]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-12-10 15:20:42.907
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-7]' --device=1 --instance=0 --go --sidp=0x9200080 --id=0x0 --timestamp=1354258592 /home/aluno/projeto-final-dlpII/DE2_115_NIOS_HOST_MOUSE_VGA/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+
+!ENTRY org.eclipse.cdt.core 4 0 2019-12-10 15:22:32.480
+!MESSAGE Error
+!STACK 0
+java.lang.UnsupportedOperationException
+	at java.util.concurrent.CopyOnWriteArrayList$COWIterator.remove(Unknown Source)
+	at org.eclipse.cdt.managedbuilder.internal.scannerconfig.DefaultGnuWinScannerInfoCollector.contributeToScannerConfig(DefaultGnuWinScannerInfoCollector.java:49)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.GCCScannerInfoConsoleParser.processCommand(GCCScannerInfoConsoleParser.java:202)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.AbstractGCCBOPConsoleParser.processSingleLine(AbstractGCCBOPConsoleParser.java:305)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.AbstractGCCBOPConsoleParser.processLine(AbstractGCCBOPConsoleParser.java:145)
+	at org.eclipse.cdt.managedbuilder.internal.scannerconfig.ManagedGCCScannerInfoConsoleParser.processLine(ManagedGCCScannerInfoConsoleParser.java:31)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2019-12-10 15:22:32.481
+!MESSAGE Error
+!STACK 0
+java.lang.UnsupportedOperationException
+	at java.util.concurrent.CopyOnWriteArrayList$COWIterator.remove(Unknown Source)
+	at org.eclipse.cdt.managedbuilder.internal.scannerconfig.DefaultGnuWinScannerInfoCollector.contributeToScannerConfig(DefaultGnuWinScannerInfoCollector.java:49)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.GCCScannerInfoConsoleParser.processCommand(GCCScannerInfoConsoleParser.java:202)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.AbstractGCCBOPConsoleParser.processSingleLine(AbstractGCCBOPConsoleParser.java:305)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.AbstractGCCBOPConsoleParser.processLine(AbstractGCCBOPConsoleParser.java:145)
+	at org.eclipse.cdt.managedbuilder.internal.scannerconfig.ManagedGCCScannerInfoConsoleParser.processLine(ManagedGCCScannerInfoConsoleParser.java:31)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-12-10 15:22:41.955
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [3-7]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-12-10 15:22:42.200
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-7]' --device=1 --instance=0 --stop --sidp=0x9200080 --id=0x0 --timestamp=1354258592]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-12-10 15:22:43.630
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-7]' --device=1 --instance=0 --go --sidp=0x9200080 --id=0x0 --timestamp=1354258592 /home/aluno/projeto-final-dlpII/DE2_115_NIOS_HOST_MOUSE_VGA/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+
+!ENTRY org.eclipse.cdt.core 4 0 2019-12-10 15:24:00.507
+!MESSAGE Error
+!STACK 0
+java.lang.UnsupportedOperationException
+	at java.util.concurrent.CopyOnWriteArrayList$COWIterator.remove(Unknown Source)
+	at org.eclipse.cdt.managedbuilder.internal.scannerconfig.DefaultGnuWinScannerInfoCollector.contributeToScannerConfig(DefaultGnuWinScannerInfoCollector.java:49)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.GCCScannerInfoConsoleParser.processCommand(GCCScannerInfoConsoleParser.java:202)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.AbstractGCCBOPConsoleParser.processSingleLine(AbstractGCCBOPConsoleParser.java:305)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.AbstractGCCBOPConsoleParser.processLine(AbstractGCCBOPConsoleParser.java:145)
+	at org.eclipse.cdt.managedbuilder.internal.scannerconfig.ManagedGCCScannerInfoConsoleParser.processLine(ManagedGCCScannerInfoConsoleParser.java:31)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2019-12-10 15:24:00.508
+!MESSAGE Error
+!STACK 0
+java.lang.UnsupportedOperationException
+	at java.util.concurrent.CopyOnWriteArrayList$COWIterator.remove(Unknown Source)
+	at org.eclipse.cdt.managedbuilder.internal.scannerconfig.DefaultGnuWinScannerInfoCollector.contributeToScannerConfig(DefaultGnuWinScannerInfoCollector.java:49)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.GCCScannerInfoConsoleParser.processCommand(GCCScannerInfoConsoleParser.java:202)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.AbstractGCCBOPConsoleParser.processSingleLine(AbstractGCCBOPConsoleParser.java:305)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.AbstractGCCBOPConsoleParser.processLine(AbstractGCCBOPConsoleParser.java:145)
+	at org.eclipse.cdt.managedbuilder.internal.scannerconfig.ManagedGCCScannerInfoConsoleParser.processLine(ManagedGCCScannerInfoConsoleParser.java:31)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-12-10 15:24:08.073
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [3-7]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-12-10 15:24:08.318
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-7]' --device=1 --instance=0 --stop --sidp=0x9200080 --id=0x0 --timestamp=1354258592]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-12-10 15:24:09.734
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-7]' --device=1 --instance=0 --go --sidp=0x9200080 --id=0x0 --timestamp=1354258592 /home/aluno/projeto-final-dlpII/DE2_115_NIOS_HOST_MOUSE_VGA/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+
+!ENTRY org.eclipse.cdt.core 4 0 2019-12-10 15:24:51.693
+!MESSAGE Error
+!STACK 0
+java.lang.UnsupportedOperationException
+	at java.util.concurrent.CopyOnWriteArrayList$COWIterator.remove(Unknown Source)
+	at org.eclipse.cdt.managedbuilder.internal.scannerconfig.DefaultGnuWinScannerInfoCollector.contributeToScannerConfig(DefaultGnuWinScannerInfoCollector.java:49)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.GCCScannerInfoConsoleParser.processCommand(GCCScannerInfoConsoleParser.java:202)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.AbstractGCCBOPConsoleParser.processSingleLine(AbstractGCCBOPConsoleParser.java:305)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.AbstractGCCBOPConsoleParser.processLine(AbstractGCCBOPConsoleParser.java:145)
+	at org.eclipse.cdt.managedbuilder.internal.scannerconfig.ManagedGCCScannerInfoConsoleParser.processLine(ManagedGCCScannerInfoConsoleParser.java:31)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2019-12-10 15:24:51.694
+!MESSAGE Error
+!STACK 0
+java.lang.UnsupportedOperationException
+	at java.util.concurrent.CopyOnWriteArrayList$COWIterator.remove(Unknown Source)
+	at org.eclipse.cdt.managedbuilder.internal.scannerconfig.DefaultGnuWinScannerInfoCollector.contributeToScannerConfig(DefaultGnuWinScannerInfoCollector.java:49)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.GCCScannerInfoConsoleParser.processCommand(GCCScannerInfoConsoleParser.java:202)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.AbstractGCCBOPConsoleParser.processSingleLine(AbstractGCCBOPConsoleParser.java:305)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.AbstractGCCBOPConsoleParser.processLine(AbstractGCCBOPConsoleParser.java:145)
+	at org.eclipse.cdt.managedbuilder.internal.scannerconfig.ManagedGCCScannerInfoConsoleParser.processLine(ManagedGCCScannerInfoConsoleParser.java:31)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-12-10 15:25:04.995
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [3-7]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-12-10 15:25:05.282
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-7]' --device=1 --instance=0 --stop --sidp=0x9200080 --id=0x0 --timestamp=1354258592]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-12-10 15:25:06.724
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-7]' --device=1 --instance=0 --go --sidp=0x9200080 --id=0x0 --timestamp=1354258592 /home/aluno/projeto-final-dlpII/DE2_115_NIOS_HOST_MOUSE_VGA/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+
+!ENTRY org.eclipse.cdt.core 4 0 2019-12-10 15:28:00.014
+!MESSAGE Error
+!STACK 0
+java.lang.UnsupportedOperationException
+	at java.util.concurrent.CopyOnWriteArrayList$COWIterator.remove(Unknown Source)
+	at org.eclipse.cdt.managedbuilder.internal.scannerconfig.DefaultGnuWinScannerInfoCollector.contributeToScannerConfig(DefaultGnuWinScannerInfoCollector.java:49)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.GCCScannerInfoConsoleParser.processCommand(GCCScannerInfoConsoleParser.java:202)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.AbstractGCCBOPConsoleParser.processSingleLine(AbstractGCCBOPConsoleParser.java:305)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.AbstractGCCBOPConsoleParser.processLine(AbstractGCCBOPConsoleParser.java:145)
+	at org.eclipse.cdt.managedbuilder.internal.scannerconfig.ManagedGCCScannerInfoConsoleParser.processLine(ManagedGCCScannerInfoConsoleParser.java:31)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2019-12-10 15:28:00.015
+!MESSAGE Error
+!STACK 0
+java.lang.UnsupportedOperationException
+	at java.util.concurrent.CopyOnWriteArrayList$COWIterator.remove(Unknown Source)
+	at org.eclipse.cdt.managedbuilder.internal.scannerconfig.DefaultGnuWinScannerInfoCollector.contributeToScannerConfig(DefaultGnuWinScannerInfoCollector.java:49)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.GCCScannerInfoConsoleParser.processCommand(GCCScannerInfoConsoleParser.java:202)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.AbstractGCCBOPConsoleParser.processSingleLine(AbstractGCCBOPConsoleParser.java:305)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.AbstractGCCBOPConsoleParser.processLine(AbstractGCCBOPConsoleParser.java:145)
+	at org.eclipse.cdt.managedbuilder.internal.scannerconfig.ManagedGCCScannerInfoConsoleParser.processLine(ManagedGCCScannerInfoConsoleParser.java:31)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-12-10 15:28:05.090
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [3-7]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-12-10 15:28:05.455
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-7]' --device=1 --instance=0 --stop --sidp=0x9200080 --id=0x0 --timestamp=1354258592]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-12-10 15:28:07.065
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-7]' --device=1 --instance=0 --go --sidp=0x9200080 --id=0x0 --timestamp=1354258592 /home/aluno/projeto-final-dlpII/DE2_115_NIOS_HOST_MOUSE_VGA/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+
+!ENTRY org.eclipse.cdt.core 4 0 2019-12-10 15:31:30.827
+!MESSAGE Error
+!STACK 0
+java.lang.UnsupportedOperationException
+	at java.util.concurrent.CopyOnWriteArrayList$COWIterator.remove(Unknown Source)
+	at org.eclipse.cdt.managedbuilder.internal.scannerconfig.DefaultGnuWinScannerInfoCollector.contributeToScannerConfig(DefaultGnuWinScannerInfoCollector.java:49)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.GCCScannerInfoConsoleParser.processCommand(GCCScannerInfoConsoleParser.java:202)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.AbstractGCCBOPConsoleParser.processSingleLine(AbstractGCCBOPConsoleParser.java:305)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.AbstractGCCBOPConsoleParser.processLine(AbstractGCCBOPConsoleParser.java:145)
+	at org.eclipse.cdt.managedbuilder.internal.scannerconfig.ManagedGCCScannerInfoConsoleParser.processLine(ManagedGCCScannerInfoConsoleParser.java:31)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2019-12-10 15:31:30.828
+!MESSAGE Error
+!STACK 0
+java.lang.UnsupportedOperationException
+	at java.util.concurrent.CopyOnWriteArrayList$COWIterator.remove(Unknown Source)
+	at org.eclipse.cdt.managedbuilder.internal.scannerconfig.DefaultGnuWinScannerInfoCollector.contributeToScannerConfig(DefaultGnuWinScannerInfoCollector.java:49)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.GCCScannerInfoConsoleParser.processCommand(GCCScannerInfoConsoleParser.java:202)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.AbstractGCCBOPConsoleParser.processSingleLine(AbstractGCCBOPConsoleParser.java:305)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.AbstractGCCBOPConsoleParser.processLine(AbstractGCCBOPConsoleParser.java:145)
+	at org.eclipse.cdt.managedbuilder.internal.scannerconfig.ManagedGCCScannerInfoConsoleParser.processLine(ManagedGCCScannerInfoConsoleParser.java:31)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-12-10 15:31:41.894
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [3-7]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-12-10 15:31:42.147
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-7]' --device=1 --instance=0 --stop --sidp=0x9200080 --id=0x0 --timestamp=1354258592]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-12-10 15:31:43.568
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-7]' --device=1 --instance=0 --go --sidp=0x9200080 --id=0x0 --timestamp=1354258592 /home/aluno/projeto-final-dlpII/DE2_115_NIOS_HOST_MOUSE_VGA/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+
+!ENTRY org.eclipse.cdt.core 4 0 2019-12-10 15:32:04.086
+!MESSAGE Error
+!STACK 0
+java.lang.UnsupportedOperationException
+	at java.util.concurrent.CopyOnWriteArrayList$COWIterator.remove(Unknown Source)
+	at org.eclipse.cdt.managedbuilder.internal.scannerconfig.DefaultGnuWinScannerInfoCollector.contributeToScannerConfig(DefaultGnuWinScannerInfoCollector.java:49)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.GCCScannerInfoConsoleParser.processCommand(GCCScannerInfoConsoleParser.java:202)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.AbstractGCCBOPConsoleParser.processSingleLine(AbstractGCCBOPConsoleParser.java:305)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.AbstractGCCBOPConsoleParser.processLine(AbstractGCCBOPConsoleParser.java:145)
+	at org.eclipse.cdt.managedbuilder.internal.scannerconfig.ManagedGCCScannerInfoConsoleParser.processLine(ManagedGCCScannerInfoConsoleParser.java:31)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2019-12-10 15:32:04.087
+!MESSAGE Error
+!STACK 0
+java.lang.UnsupportedOperationException
+	at java.util.concurrent.CopyOnWriteArrayList$COWIterator.remove(Unknown Source)
+	at org.eclipse.cdt.managedbuilder.internal.scannerconfig.DefaultGnuWinScannerInfoCollector.contributeToScannerConfig(DefaultGnuWinScannerInfoCollector.java:49)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.GCCScannerInfoConsoleParser.processCommand(GCCScannerInfoConsoleParser.java:202)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.AbstractGCCBOPConsoleParser.processSingleLine(AbstractGCCBOPConsoleParser.java:305)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.AbstractGCCBOPConsoleParser.processLine(AbstractGCCBOPConsoleParser.java:145)
+	at org.eclipse.cdt.managedbuilder.internal.scannerconfig.ManagedGCCScannerInfoConsoleParser.processLine(ManagedGCCScannerInfoConsoleParser.java:31)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-12-10 15:32:11.636
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [3-7]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-12-10 15:32:11.909
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-7]' --device=1 --instance=0 --stop --sidp=0x9200080 --id=0x0 --timestamp=1354258592]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-12-10 15:32:13.515
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-7]' --device=1 --instance=0 --go --sidp=0x9200080 --id=0x0 --timestamp=1354258592 /home/aluno/projeto-final-dlpII/DE2_115_NIOS_HOST_MOUSE_VGA/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+
+!ENTRY org.eclipse.cdt.core 4 0 2019-12-10 15:33:02.509
+!MESSAGE Error
+!STACK 0
+java.lang.UnsupportedOperationException
+	at java.util.concurrent.CopyOnWriteArrayList$COWIterator.remove(Unknown Source)
+	at org.eclipse.cdt.managedbuilder.internal.scannerconfig.DefaultGnuWinScannerInfoCollector.contributeToScannerConfig(DefaultGnuWinScannerInfoCollector.java:49)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.GCCScannerInfoConsoleParser.processCommand(GCCScannerInfoConsoleParser.java:202)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.AbstractGCCBOPConsoleParser.processSingleLine(AbstractGCCBOPConsoleParser.java:305)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.AbstractGCCBOPConsoleParser.processLine(AbstractGCCBOPConsoleParser.java:145)
+	at org.eclipse.cdt.managedbuilder.internal.scannerconfig.ManagedGCCScannerInfoConsoleParser.processLine(ManagedGCCScannerInfoConsoleParser.java:31)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2019-12-10 15:33:02.510
+!MESSAGE Error
+!STACK 0
+java.lang.UnsupportedOperationException
+	at java.util.concurrent.CopyOnWriteArrayList$COWIterator.remove(Unknown Source)
+	at org.eclipse.cdt.managedbuilder.internal.scannerconfig.DefaultGnuWinScannerInfoCollector.contributeToScannerConfig(DefaultGnuWinScannerInfoCollector.java:49)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.GCCScannerInfoConsoleParser.processCommand(GCCScannerInfoConsoleParser.java:202)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.AbstractGCCBOPConsoleParser.processSingleLine(AbstractGCCBOPConsoleParser.java:305)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.AbstractGCCBOPConsoleParser.processLine(AbstractGCCBOPConsoleParser.java:145)
+	at org.eclipse.cdt.managedbuilder.internal.scannerconfig.ManagedGCCScannerInfoConsoleParser.processLine(ManagedGCCScannerInfoConsoleParser.java:31)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2019-12-10 15:33:13.002
+!MESSAGE Error
+!STACK 0
+java.lang.UnsupportedOperationException
+	at java.util.concurrent.CopyOnWriteArrayList$COWIterator.remove(Unknown Source)
+	at org.eclipse.cdt.managedbuilder.internal.scannerconfig.DefaultGnuWinScannerInfoCollector.contributeToScannerConfig(DefaultGnuWinScannerInfoCollector.java:49)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.GCCScannerInfoConsoleParser.processCommand(GCCScannerInfoConsoleParser.java:202)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.AbstractGCCBOPConsoleParser.processSingleLine(AbstractGCCBOPConsoleParser.java:305)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.AbstractGCCBOPConsoleParser.processLine(AbstractGCCBOPConsoleParser.java:145)
+	at org.eclipse.cdt.managedbuilder.internal.scannerconfig.ManagedGCCScannerInfoConsoleParser.processLine(ManagedGCCScannerInfoConsoleParser.java:31)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2019-12-10 15:33:13.003
+!MESSAGE Error
+!STACK 0
+java.lang.UnsupportedOperationException
+	at java.util.concurrent.CopyOnWriteArrayList$COWIterator.remove(Unknown Source)
+	at org.eclipse.cdt.managedbuilder.internal.scannerconfig.DefaultGnuWinScannerInfoCollector.contributeToScannerConfig(DefaultGnuWinScannerInfoCollector.java:49)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.GCCScannerInfoConsoleParser.processCommand(GCCScannerInfoConsoleParser.java:202)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.AbstractGCCBOPConsoleParser.processSingleLine(AbstractGCCBOPConsoleParser.java:305)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.gnu.AbstractGCCBOPConsoleParser.processLine(AbstractGCCBOPConsoleParser.java:145)
+	at org.eclipse.cdt.managedbuilder.internal.scannerconfig.ManagedGCCScannerInfoConsoleParser.processLine(ManagedGCCScannerInfoConsoleParser.java:31)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-12-10 15:33:20.445
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [3-7]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-12-10 15:33:20.697
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-7]' --device=1 --instance=0 --stop --sidp=0x9200080 --id=0x0 --timestamp=1354258592]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-12-10 15:33:22.304
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-7]' --device=1 --instance=0 --go --sidp=0x9200080 --id=0x0 --timestamp=1354258592 /home/aluno/projeto-final-dlpII/DE2_115_NIOS_HOST_MOUSE_VGA/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]

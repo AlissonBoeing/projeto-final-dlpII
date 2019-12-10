@@ -170,7 +170,6 @@ int main(void)
     Set_Pixel_On_Color(512,512,512);
     Set_Pixel_Off_Color(0,0,0);
     Set_Cursor_Color(0,1023,0);
-    LCD_Test();
     
     //----------------------------------------SIE1 initial---------------------------------------------------//
 USB_HOT_PLUG:
@@ -1699,6 +1698,23 @@ USB_HOT_PLUG:
     SEG7_Hex((px<<16)+py,0);
     IOWR(LEDR_BASE,0,px);
     IOWR(LEDG_BASE,0,py);
+
+    char Text1[4];
+    char Text2[4];
+
+    itoa(px, Text1, 10);
+    itoa(py, Text2, 10);
+
+    LCD_print(Text1, Text2);
+
+    //LCD_Init();
+    //  Show Text to LCD
+    //LCD_Show_Text(Text1);
+    //  Change Line2
+    //LCD_Line2();
+    //  Show Text to LCD
+    //LCD_Show_Text(Text2);
+
 
     Set_Cursor_XY(px,py);
     if(pbutton==1)
